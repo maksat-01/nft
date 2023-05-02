@@ -1,0 +1,47 @@
+#work {
+  padding-top: 20%;
+  padding-bottom: 20%;
+  .work--general {
+    .slick-list {
+      overflow: hidden;
+
+      .slick-track {
+        display: flex;
+        width: 97%;
+      }
+    }
+    h1 {
+      font-family: 'Inter',sans-serif;
+      font-weight: 400;
+      font-size: 50px;
+      line-height: 55px;
+      text-align: center;
+      color: #35B8BE;
+      padding: 40px;
+    }
+    &__block {
+      width: 333px;
+      height: 367px;
+      img {
+        padding-bottom: 30px;
+      }
+      h2 {
+        font-family: 'Inter',sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 22px;
+        color: #08090A;
+        text-align: center;
+      }
+      p {
+        font-family: 'Inter',sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #546285;
+        text-align: center;
+        padding: 20px 0;
+      }
+    }
+  }
+}

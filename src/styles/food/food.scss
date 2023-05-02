@@ -1,0 +1,12 @@
+#food {
+  padding-top: 10%;
+  .food--general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10%;
+    img {
+      margin: 20px;
+    }
+  }
+}

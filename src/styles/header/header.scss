@@ -1,0 +1,25 @@
+
+#header {
+  .header--general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__block {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      h1 {
+        font-family: 'Inter',sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        color: #28224B;
+        padding: 0 30px ;
+        transition: .4s;
+        &:hover {
+          transform: scale(1.1);
+          color: #35B8BE;
+        }
+      }
+    }
+  }
+}

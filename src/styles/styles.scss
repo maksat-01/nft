@@ -1,0 +1,33 @@
+@import "./src/styles/header/header";
+@import "./src/styles/hero/hero";
+@import "./src/styles/home/home";
+@import "./src/styles/work/work";
+@import "./src/styles/menu/menu";
+@import "./src/styles/order/order";
+@import "./src/styles/call/call";
+@import "./src/styles/food/food";
+@import "./src/styles/footer/footer";
+
+@import "icon.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+body.html {
+  scroll-behavior: smooth;
+  font-family: "Montserrat",sans-serif;
+}
